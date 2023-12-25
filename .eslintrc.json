@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  // Custom rules
+  "rules": {
+    // So that we don't get an error when using <img> tag
+    "@next/next/no-img-element": "off"
+  }
 }

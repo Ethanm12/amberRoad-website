@@ -24,7 +24,7 @@ This is the website for Amber Road E-Commerce
     - Home
     - Pricing 
     - Blog
-    - Contactw
+    - Contact
 
 - Home Page
     - Hero image with some intro text
