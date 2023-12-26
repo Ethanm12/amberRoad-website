@@ -1,0 +1,17 @@
+// Import global stylesheets
+@import './base/reset'; 
+@import './base/typography';
+
+@import './components/headerNav';
+@import './components/footerNav';
+
+// Define your custom styles here
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+ 
+// Import component stylesheets
+// @import 'header';
+// @import 'footer';
