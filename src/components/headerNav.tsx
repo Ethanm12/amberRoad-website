@@ -1,10 +1,10 @@
-import React from "react";
+import React from "react"; 
 
 const HeaderNav: React.FC = () => {
   return (
     <nav className="header-container">
       <div className="header-logo-container">
-        <img src="/images/logo.svg" alt="logo" />
+        <img src="../assets/placeholders/placeholder-logo.svg" alt="logo" />
       </div>
       <div className="header-page-buttons-container">
         <ul>
