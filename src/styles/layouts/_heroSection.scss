@@ -1,0 +1,15 @@
+// Going to do the grid container here for mobile breakdown
+
+.hero-section-container{
+    border: 1px solid black;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;  
+    .hero-section-text{
+        border-right: 1px solid black;
+        width: 50vw;
+    }
+    .hero-section-image{
+
+    }
+}

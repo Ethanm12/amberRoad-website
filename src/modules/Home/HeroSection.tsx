@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react";  
 
-interface SectionProps {
-    title: string;
-    description: string;
-}
-
-const Section: React.FC<SectionProps> = ({ title, description }) => {
-    return (
-        <section>
-            <h2>{title}</h2>
-            <p>{description}</p>
-        </section>
-    );
+const HeaderNav: React.FC = () => {
+  return (
+    <div className="hero-section-container">
+        <div className="hero-section-text">Here is the Hero section</div>
+        <div className="hero-section-image">
+            <img src="/assets/site-homepage-1.png" alt="Hero" />
+        </div>
+    </div>
+  );
 };
 
-export default Section;
+export default HeaderNav;
