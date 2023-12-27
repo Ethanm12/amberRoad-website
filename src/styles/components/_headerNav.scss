@@ -7,10 +7,12 @@
     align-items: center;
 
     border-bottom: 1px solid #ccc;
-    .header-container{
+    .header-logo-container{ 
+        height: 100px;
+        width: 100px;
         img{
-            width: 100%;
-            height: 100%;
+            width: auto;
+            height: 100px;
         }
     }
     .header-page-buttons-container{
