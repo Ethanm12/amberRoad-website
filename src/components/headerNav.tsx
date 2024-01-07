@@ -1,6 +1,19 @@
 import React from "react";  
+import Button from "@/components/buttons/button"
 
 const HeaderNav: React.FC = () => {
+  
+  const registerButtonStyles = {
+    backgroundColor: 'white',
+    color: 'black',
+    marginRight: '20px', 
+  };
+
+  const learnButtonStyles = {
+    backgroundColor: 'black',
+    color: 'white', 
+  };
+
   return (
     <nav className="header-container">
       <div className="header-logo-container">  
@@ -15,8 +28,8 @@ const HeaderNav: React.FC = () => {
         </ul>
       </div>
       <div className="header-call-to-action-contianer">
-        <button className="header-call-to-action-button">Sign Up</button>
-        <button className="header-call-to-action-button">Log In</button>
+      <Button label={"Register"} style={registerButtonStyles} /> 
+      <Button label={"Learn More"} style={learnButtonStyles} /> 
       </div>
     </nav>
   );

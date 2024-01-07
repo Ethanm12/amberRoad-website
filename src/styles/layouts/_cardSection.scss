@@ -1,0 +1,32 @@
+.card-section-container{
+    display: flex;
+    flex-direction: row;
+    margin: 125px 0;  
+    justify-content: space-between; 
+    .card-container{
+        width: 500px;
+        height: 600px;
+        .card-image{
+            img{
+                width: 500px;
+                height: 300px;
+            }
+        }
+        .card-text-container{
+            margin: 20px 0;
+            p{
+                margin: 20px 0;
+            }
+        }
+        .card-button-container{
+            display: flex;  
+        }
+        .card-button{
+            border: 1px solid black;
+        }
+    }
+
+    .card-remove-this{
+        margin: 0 25px;
+    }
+} 

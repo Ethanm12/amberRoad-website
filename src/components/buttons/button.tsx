@@ -1,9 +1,12 @@
- import React from "react";
- import { ButtonProps } from './types';
+import React from "react";
+import { ButtonProps } from './types';
 
-const Button: React.FC<ButtonProps> = ({ label, onClick, style }) => {
+const Button: React.FC<ButtonProps> = ({ label, propsClass, onClick, style }) => {
+    const defaultClasses = "primary-button";
+    const combinedClasses = `${defaultClasses} ${propsClass}`;
+
     return (
-        <button className="primary-button" onClick={onClick} style={style}>
+        <button className={combinedClasses} onClick={onClick} style={style}>
             {label}
         </button>
     );

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FooterNav = () => {
     return (
-        <footer>
+        <footer className='footer-section-container'>
             <nav>
                 <ul>
                     <li>

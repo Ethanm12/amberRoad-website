@@ -7,14 +7,21 @@
 @import './components/footerNav';
 
 @import './layouts/heroSection';
-// @import './layouts/infoSection';
+@import './layouts/infoSection';
+@import './layouts/cardSection';
+@import './layouts/featureSection';
+@import './layouts/callToActionSection';
 
 // Define your custom styles here
 body {
     font-family: Arial, sans-serif;
     background-color: #f5f5f5;
-    color: #333;
+    color: #333; 
 }
+    
+.main-content-container{
+    padding: 0 75px;
+} 
  
 // Import component stylesheets
 // @import 'header';

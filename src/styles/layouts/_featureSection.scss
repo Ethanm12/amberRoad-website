@@ -1,26 +1,27 @@
 // Going to do the grid container here for mobile breakdown
 
-.hero-section-container{  
+.feature-section-container{  
     display: flex;
     flex-direction: row;  
     margin: 125px 0;
-    .hero-section-text{ 
+    .feature-section-text{ 
         width: 50vw;
         padding: 0 75px 0 0; 
         display: flex;
         align-items: center;
-        .hero-section-heading{ 
+        .feature-section-heading{ 
             p{
                 margin: 20px 0;
             }
-            .hero-section-buttons{
-                :button{
-                    border: 1px solid black;
+            .feature-section-perks{
+                display: flex;
+                flex-direction: row;
+                .feature-section-item{ 
                 }
             }
         }
     }
-    .hero-section-image{ 
+    .feature-section-image{ 
         width: 50%;
         display: flex;
         align-items: center;

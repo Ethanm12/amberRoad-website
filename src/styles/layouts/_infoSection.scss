@@ -1,6 +1,14 @@
-.info-section-container{
-    border: 1px solid black;
+.info-section-container{ 
     padding: 20px 0;
     display: flex;
     flex-direction: row;
+    //This margin must be moved to a custom class tag that can be applied globally
+    margin: 125px 0;
+    .info-heading-container{ 
+        width: 50vw;
+        padding: 0 75px 0 0; 
+    }
+    .info-text-container{
+        width: 50%;
+    }
 }
