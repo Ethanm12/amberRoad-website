@@ -1,15 +1,12 @@
 // Going to do the grid container here for mobile breakdown
 
-.hero-section-container{
-    border: 1px solid black;
+.hero-section-container{ 
     height: 80vh;
     display: flex;
     flex-direction: row;  
-    .hero-section-text{
-        border-right: 1px solid black;
+    .hero-section-text{ 
         width: 50vw;
-        padding: 0 75px;
-        background-color: aqua; 
+        padding: 0 75px; 
         display: flex;
         align-items: center;
         .hero-section-heading{ 
@@ -23,7 +20,15 @@
             }
         }
     }
-    .hero-section-image{
-        
+    .hero-section-image{ 
+        width: 50%;
+        display: flex;
+        align-items: center;
+        // justify-content: center; 
+         
+        img{ 
+            width: 700px;
+            height: 500px;
+        }
     }
 }

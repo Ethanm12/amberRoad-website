@@ -32,7 +32,8 @@ const HeaderNav: React.FC = () => {
       </div>
 
       <div className="hero-section-image">
-        <img src="/assets/site-homepage-1.png" alt="Hero" />
+        <img src="/assets/placeholders/placeholder-image.jpg
+        " alt="Hero" />
       </div>
     </div>
   );
