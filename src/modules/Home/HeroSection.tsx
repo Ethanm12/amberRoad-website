@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@/components/buttons/button"
 
-const HeaderNav: React.FC = () => {
+const HeroSection: React.FC = () => {
 
   //Focus on building this better. The styles need to be more unified to maintain the code better
   const registerButtonStyles = {
@@ -39,4 +39,4 @@ const HeaderNav: React.FC = () => {
   );
 };
 
-export default HeaderNav;
+export default HeroSection;
